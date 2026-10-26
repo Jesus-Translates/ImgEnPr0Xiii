@@ -1,5 +1,6 @@
 # .gitignore
 node_modules/
+python_server/venv/
 /.next/
 out/
 .env.local
@@ -8,3 +9,4 @@ out/
 .DS_Store
 *.log
 node_modules/
+python_server/venv/
