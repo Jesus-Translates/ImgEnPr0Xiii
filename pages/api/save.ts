@@ -1,7 +1,9 @@
 // pages/api/save.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
-import sqlite3 from 'sqlite3';
-import { open } from 'sqlite';
+// @ts-ignore
+const sqlite3 = require('sqlite3');
+// @ts-ignore
+const { open } = require('sqlite');
 
 async function getDb() {
   return open({
